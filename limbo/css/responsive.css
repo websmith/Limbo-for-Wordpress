@@ -1,0 +1,32 @@
+/*------------------------------------
+RESPONSIVE.CSS
+CUSTOM REPSONSIVE STYLES
+
+CSS3 Stylesheet
+Site: #########
+Media Specification: All
+Authors: Nate Cornelius | Hole in the Roof Marketing | holeintheroof.com
+
+------------------------------------*/
+
+@media only screen and (min-width: 1000px) {
+}
+
+@media only screen and (max-width: 999px) {
+}
+
+@media only screen and (max-width: 767px) {
+	.navbar { margin-top: 20px; }
+	.navbar-brand { display: block; }
+	.navbar .nav { float: none; }
+	.navbar .nav > li { float: none; text-align: center; }
+}
+
+@media only screen and (max-width: 660px) {
+}
+
+@media only screen and (max-width: 420px) {
+}
+
+@media only screen and (max-width: 320px) {
+}

@@ -1,0 +1,142 @@
+/*   
+Theme Name: Limbo
+Description: A simple Bootstrap theme for Wordpress
+Author: Nate Cornelius
+Author URI: http://natecornelius.com
+Version: 1.0
+*/
+
+/*
+Global Styles
+Media Specification: All
+Authors: Nate Cornelius | natecornelius.com
+
+Color Codes:
+#
+#
+#
+--------------------------
+*/
+
+
+/*-----------------
+  EMBEDED FONTS
+-----------------*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600);
+/*
+font-family: 'Open Sans', sans-serif;
+*/
+
+
+/*-----------------
+MAIN
+-----------------*/
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+    background: #fff;
+}
+
+a { color: #08c; }
+a:visited { color: #39f; }
+a:hover { color: #444; }
+
+.container { width: 95%; max-width: 1000px; margin: 40px auto; }
+
+
+/*-----------------
+HEADER
+-----------------*/
+.logo img { vertical-align: bottom; }
+
+
+/*-----------------
+NAVIGATION
+-----------------*/
+.navbar-brand,
+.navbar-brand:visited,
+.navbar-brand:hover { 
+	display: none; 
+	font-size: 2em;
+	color: #333;
+	text-align: left;
+	padding-top: 16px;
+	padding-left: 10px;
+}
+
+.navbar-default { background: none transparent; border: 0 none; }
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.active>a:focus { background: none transparent; box-shadow: none; }
+
+
+/*-----------------
+CONTENT
+-----------------*/
+.posts-list .post {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dedede;
+}
+
+.posts-list .post:last-of-type {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: 0 none;
+}
+
+#comments { 
+	padding-top: 20px; 
+	margin-top: 20px;
+	margin-bottom: 20px; 
+	border-top: 1px dashed #DEDEDE; 
+}
+
+.comment-list { clear: both; }
+.comment-list .comment { list-style: none; }
+.comment-meta .img-circle,
+.comment-meta .comment-author { margin-right: 10px; }
+
+
+/*---------------
+SIDEBAR
+---------------*/
+
+
+/*-----------------
+FOOTER
+-----------------*/
+footer {
+	margin-bottom: 50px;
+	padding: 20px 0;
+}
+
+.copyright p { font-size: 0.8em; color: #777; text-align: center; }
+
+
+/*-----------------
+ACCORDIONS
+-----------------*/
+.expanded .article-title a  { background: url(../images/minus-icon.png) no-repeat 0px 0px;background-size:28px 28px; }
+.collapsed .article-title a { background: url(../images/plus-icon.png) no-repeat 0px 0px;background-size:28px 28px; }
+.accordion-widget { margin: 5px 0 ; }
+.accordion-widget .accordion-title {padding: 1px 0px; background: #ffffff; }
+.accordion-widget .accordion-title:hover { background: none; }
+.accordion-widget .article-title a { padding-left:40px; text-decoration: none; color: #a8a8a8; font-weight: 400; font-size:1.5em; display:block; }
+.expanded .article-title a  {color: #173869;}
+.accordion-widget .article-title a:hover { text-decoration: none; color: #333; }
+.accordion-widget .accordion-body  { display:none; }
+.accordion-widget .accordion-body { padding: 0px; background: #FFFFFF; border: none; color:#03a9e2; }
+
+
+/*-----------------
+MISC
+-----------------*/
+.cl {
+	clear: both;
+	display: block;
+	height: 0;
+	font-size: 10px;
+	overflow: hidden;
+	line-height: 0;
+}
