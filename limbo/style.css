@@ -40,6 +40,7 @@ body {
 a { color: #08c; }
 a:visited { color: #39f; }
 a:hover { color: #444; }
+hr { clear: both; }
 
 .container { width: 95%; max-width: 1000px; margin: 40px auto; }
 
